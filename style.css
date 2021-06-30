@@ -4,3 +4,21 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
+body {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+}
+
+.hero-shadow {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: -1;
+}
