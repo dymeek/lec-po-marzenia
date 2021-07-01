@@ -63,14 +63,25 @@ rgb(180, 40, 40) */
      color: rgb(180, 40, 40);
  }
 
- .about-conference a {
+ .about-conference a,
+ .conference-speakers a {     
      text-decoration: none;
      color: rgb(180, 40, 40);
      cursor: pointer;
  }
 
- /* sekcja prelegentki */
+ /* sekcje prelegentki i organizatorki */
 
- .conference-speakers img {
+ .conference-speakers img,
+ .conference-organizators img {
      width: 100%;
+     height: 40rem;
+     background-size: cover;
+     background-position: center;
+ }
+
+ .conference-speakers .btn,
+ .conference-organizators .btn {
+     font-size: 1.8rem;
+     font-weight: bold;
  }
