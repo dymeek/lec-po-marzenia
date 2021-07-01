@@ -46,12 +46,31 @@ rgb(180, 40, 40) */
      color: #fff;
  }
 
+ section h2 {
+     font-size: 2.6rem;
+ }
+
+ section h3 {
+     font-size: 2rem;
+ }
+
  section h2,
  section h3 {
      color: rgb(180, 40, 40);
-     /* border-top: 2px solid rgb(180, 40, 40); */
  }
 
  hr {
      color: rgb(180, 40, 40);
+ }
+
+ .about-conference a {
+     text-decoration: none;
+     color: rgb(180, 40, 40);
+     cursor: pointer;
+ }
+
+ /* sekcja prelegentki */
+
+ .conference-speakers img {
+     width: 100%;
  }
