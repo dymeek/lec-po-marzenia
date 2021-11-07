@@ -29,7 +29,7 @@ rgb(180, 40, 40) */
  header {
      position: relative;
      height: 60rem;
-     background-image: url('/hero-image/hero-image1.jpg');
+     background-image: url('./hero-image/hero-image1.jpg');
      background-repeat: no-repeat;
      background-position: center;
      background-size: cover;
@@ -45,9 +45,11 @@ rgb(180, 40, 40) */
      line-height: 60rem;
      color: #fff;
  }
+
  .title {
      font-size: 4rem;
  }
+
  section h2 {
      font-size: 2.6rem;
  }
@@ -61,6 +63,7 @@ rgb(180, 40, 40) */
  .social-media p {
      color: rgb(180, 40, 40);
  }
+
  section p {
      font-size: 1.8rem;
  }
@@ -70,7 +73,7 @@ rgb(180, 40, 40) */
  }
 
  .about-conference a,
- .conference-speakers a {     
+ .conference-speakers a {
      text-decoration: none;
      color: rgb(180, 40, 40);
      cursor: pointer;
@@ -94,18 +97,19 @@ rgb(180, 40, 40) */
 
  .social-media a {
      display: inline-block;
-     
- }
- .social-media i {
-    font-size: 3rem;
+
  }
 
- footer {     
+ .social-media i {
+     font-size: 3rem;
+ }
+
+ footer {
      background-color: rgb(180, 40, 40);
      color: white;
  }
 
- footer i {     
+ footer i {
      color: white;
  }
 
